@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section-top
+{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/booking-img.jpg") no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+	z-index: -1;
+	height: 70%;
+	width: 100%;
+}
+
+
+#section-top h2
+{
+	text-align: center;
+	font-size: 110px;
+	color: #fff;
+	font-weight: 600;
+}
+
+
+.package-choose, .form
+{
+	padding: 100px 100px 10px;
+	background-color: #E9EAE0;
+}
+
+.small-container
+{
+	margin: 20px auto;
+	
+}
+
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.package-info
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.package-info img
+{
+	border-radius: 20px;
+	width: 250px;
+	height: 200px;
+	margin-right: 10px;
+}
+
+th
+{
+	text-align: left;
+	padding: 15px;
+	font-weight: normal;
+}
+
+td
+{
+	padding: 10px 5px;
+}
+
+td input
+{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+
+.total-price
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.total-price table
+{
+	border-top: 3px solid #BEBEBE;
+	width: 100%;
+	max-width: 350px;
+}
+
+td:last-child
+{
+	text-align: right;
+}
+
+th:last-child
+{
+	text-align: right;
+}
+
+form input[type=text], input[type=date]
+{
+	width: 100%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+input:required
+{
+	border-color: #C85250;
+}
+
+.paymentButton
+{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.paymentButton input
+{
+	margin: auto;
+  	background-color: #0354A6;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+

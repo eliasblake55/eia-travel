@@ -1,0 +1,95 @@
+h6{
+    text-align: center;
+    color: #fff;
+    font-size: 96px;
+  }
+
+#section-top
+{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/insurance-img.jpg") no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+	z-index: -1;
+	height: 70%;
+	width: 100%;
+}
+
+
+#section-top h2
+{
+	text-align: center;
+	font-size: 110px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.containerOne{
+    background-color: #E9EAE0;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 60px;
+    height: 200px;
+    align-items: center;
+  
+}
+
+.col-1{
+  float: right;
+  width: 33.3333%;
+  padding: 0 8px;
+  height: 170px;
+  align-items: center;
+  text-align: center;
+}
+
+.col-1 img{
+    height: 100px;
+}
+
+.collab{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+
+.containerTwo{
+    height: 150px;
+    background-color: #E7625F;
+    align-items: center;
+    padding: 20px;
+
+}
+
+h3{
+    font-size: 65px;
+    text-align: center;
+
+}
+
+.containerThree{
+    height:700px;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.colBen
+{
+  float: right;
+  width: 50%;
+  padding: 0 8px;
+  height: 170px;
+  align-items: center;
+  text-align: center;
+}
+.colBen img
+{
+    height:100px;
+    width: 100px;
+}

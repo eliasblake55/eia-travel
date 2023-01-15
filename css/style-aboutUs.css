@@ -1,0 +1,196 @@
+h6{
+  text-align: center;
+  color: #fff;
+  font-size: 96px;
+}
+
+#section-top
+{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/about-us-img.jpg") no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+	z-index: -1;
+	height: 70%;
+	width: 100%;
+}
+
+
+#section-top h2
+{
+	text-align: center;
+	font-size: 110px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.containerOne { 
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	background-color: #E9EAE0;
+	padding: 60px;
+  	height: 400px;
+}
+
+h2
+{
+  text-align: center;
+  font-size: 35px;
+  color: black;
+
+}
+
+
+.containerTwo
+{
+  background-color: #E7625F;
+  text-align: center;
+	justify-content: center;
+	align-content: center;
+	padding: 60px;
+  	height:500px;
+}
+
+.value
+{
+  color: #fff;
+  text-align: justify;
+  align-items: center;
+  padding-left: 250px;
+}
+
+.value1
+{
+  color: #fff;
+  text-align: justify;
+  align-items: center;
+  padding-left: 410px;
+}
+
+.column1
+{
+  float: right;
+  align-items: center;
+  width: 40;
+  padding: 15px;
+  text-align: center;
+}
+
+.column2
+{
+  float: right;
+  align-items: center;
+  width: ;
+  padding: 15px;
+  text-align: center;
+}
+
+
+.containerThree
+{
+  background-color: #E9EAE0;
+  text-align: center;
+	justify-content: center;
+	align-content: center;
+	padding: 60px;
+  height: 350px;
+  align-items: center;
+
+}
+
+
+
+.column
+{
+  float: right;
+  align-items: center;
+  width: 32%;
+  padding: 15px;
+  text-align: center;
+}
+
+.text_1
+{
+  color:#E7625F;
+  
+}
+
+.column img
+{
+  width: 100px;
+  height:100px;
+}
+
+.mission{
+  text-align: left;
+}
+
+.containerFour
+{
+  padding: 80px 30px;
+  height: 800px;
+  align-items: center;
+  text-align: center;
+}
+
+.column3{
+ 
+  float: right;
+  width: 33.33%;
+  padding: 0 8px;
+  height: 200px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: #E7625F;
+  width: 100%;
+  height: 600px;
+}
+
+.pic{
+  padding-top:80px;
+}
+
+.pic img {
+  width: 250px;
+  height:300px ;
+}
+
+.text3
+{
+  color: #fff;
+}
+
+.social
+{
+ color:#fff;
+}
+
+.card .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+}
